@@ -3,11 +3,11 @@ title: My Blog
 SEOTitle: 我的博客 | My Blog
 header-img: img/post-bg-desk.jpg
 email: 暂无
-description: "写一句你想写的话"
+description: "This scany's blog"
 keyword: "我的博客"
 url: "http://name.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/name/name.github.io.git" # you code repository
+github_repo: "https://github.com/scany1211/scany.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -78,7 +78,17 @@ ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:                # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
-
+links1:
+  - name: All
+    url: /
+    type: recent
+    external: false
+  - name: Golang
+    url: /blog/golang
+    type: golang
+    external: false
+blog_1: recent
+blog_2: golang
 
 
 # Featured Tags

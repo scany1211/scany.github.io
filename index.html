@@ -40,3 +40,15 @@ description: "填上一句你想填的话，在index.html中更改"
     {% endif %}
 </ul>
 {% endif %}
+
+{% assign count = 0 %}
+<ul class="pager">
+    {% for post in site.posts %}
+    {% if post.golang %}
+    <li class="post-card">
+        <a href="{{ post.url | prepend: site.baseurl }}"> class="post-card-image"</a>
+    </li>
+    {% endif %}
+	{% endfor %}
+</ul>
+{% endif %}
